@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+.userList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+}
+.users h2 {
+  color: salmon;
+  margin: 50px auto;
+}
+.users > img { /* selects only the direct children of the classname "users" */
+  width: 100vw;
+}
+.links{
+  margin-right: 10px;
+  text-decoration: none;
+  color: salmon;
+}
+.links:hover{
+  color: white;
+}
